@@ -1,0 +1,37 @@
+*, *:before, *:after {
+  margin:0;
+box-sizing: border-box;
+}
+
+body, text, p, pre {
+    font-family: 'Roboto', sans-serif;
+}
+
+text a {
+    fill: #0039d4;
+}
+
+.bar {
+    fill: #319fe8;
+}
+
+.bar:hover {
+    fill: #eb9028;
+    cursor: pointer;
+}
+
+.bar:active {
+    fill: red;
+    
+}
+
+#tooltip {	
+    position: absolute;			
+    text-align: center;			
+    padding: 5px 5px;				
+    font: 12px sans-serif;		
+    background: white;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
